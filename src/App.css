@@ -1,3 +1,30 @@
+.NavBar {
+  display: flex;
+  height: 70px;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(156, 40, 185);
+}
+
+#nav-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-collapse: separate;
+  
+}
+
+#box {
+  width: 100px;
+  display: flex;
+  background-color: teal;
+  border: 1px red solid;
+  justify-content: space-around;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +53,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#btn {
+  width: 100px;
+  height: 70px;
+  border: 3px red;
+  background-color: rebeccapurple;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
