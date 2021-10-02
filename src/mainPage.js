@@ -57,7 +57,7 @@ function MainPage() {
                         <a class="nav-link" href="index.html"><Link to="/news" >News</Link></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="pages/magazine.html"><Link to="/covid" >Covid</Link></a>
+                        <a class="nav-link" href="pages/magazine.html"><Link to="/covid/Home" >Covid</Link></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="pages/contactus.html">Contact</a>

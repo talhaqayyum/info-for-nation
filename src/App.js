@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NewsDashboard from './services/news/newsDashboard'
 import MainPage from './mainPage';
 import Dictionary from './services/dictionary';
-import CovidMain from './services/corona/main'
-
-
+import Home from './services/corona/Home'
+import Stats from './services/corona/Stats'
+import Map from './services/corona/Map'
 
 function App() {
 
@@ -17,9 +17,11 @@ function App() {
         <div>
           <MainPage />
         </div>
-        <Route path="/news" component={NewsDashboard} />
+        <Route exact path="/news" component={NewsDashboard} />
         <Route path="/dictionary" component={Dictionary} />
-        <Route path="/covid" component={CovidMain} />
+        <Route path="/covid/Home" component={Home} />
+        <Route path="/covid/Stats" component={Stats} />
+        <Route path="/covid/Map" component={Map} />
       </Router>
     </div>
   );
