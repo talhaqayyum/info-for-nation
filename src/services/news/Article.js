@@ -48,18 +48,16 @@ export default function Article({ data, id }) {
                         tabIndex={-1}
                     >
 
-                        {
-    data[0].title
-}
+                        {/* {
+                            data[0].title
+                        } */}hello
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={handleClose} color="primary">
                         Cancel
                     </Button>
-                    <Button onClick={handleClose} color="primary">
-                        Subscribe
-                    </Button>
+                    
                 </DialogActions>
             </Dialog>
         </div>

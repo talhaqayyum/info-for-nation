@@ -48,8 +48,9 @@ function NewsDashboard() {
 
 
   const handleIdChange = (index) => {
+    
     setId(index)
-    console.log(index)
+
   }
 
   // var url = 'https://saurav.tech/NewsAPI/everything/cnn.json';
@@ -69,9 +70,11 @@ function NewsDashboard() {
   return (
 
     <body>
+       <Article data={data} id={id} />
+      
 
-      <Article  data={allArticle} id={id} />
-      <div className="container-scroller">
+
+      <div className="container-scroller"  >
         <div className="main-panel">
 
           {/* <header id="header">

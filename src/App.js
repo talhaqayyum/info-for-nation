@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NewsDashboard from './services/news/newsDashboard'
 import MainPage from './mainPage';
 import Dictionary from './services/dictionary';
-
+import CovidMain from './services/corona/main'
 
 
 
@@ -19,6 +19,7 @@ function App() {
         </div>
         <Route path="/news" component={NewsDashboard} />
         <Route path="/dictionary" component={Dictionary} />
+        <Route path="/covid" component={CovidMain} />
       </Router>
     </div>
   );
